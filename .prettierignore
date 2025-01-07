@@ -1,0 +1,20 @@
+# Ignore all node_modules and build directories
+node_modules
+build
+dist
+
+# Ignore specific files
+*.min.js
+*.bundle.js
+
+# Ignore specific directories
+public
+coverage
+
+# Ignore all files in a specific directory
+src/ignored-directory/**
+
+# Ignore specific file types
+*.log
+*.json
+*.lock
