@@ -9,12 +9,7 @@ export default function TextEditor({ zoom }: TextEditorProps) {
 
   return (
     <div className='w-1/2 p-4 border-r'>
-      <Editor
-        height='90vh'
-        defaultLanguage='md'
-        defaultValue={dvalue}
-      />
-      ;
+      <Editor height='90vh' defaultLanguage='md' defaultValue={dvalue} />;
     </div>
   )
 }
